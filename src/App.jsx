@@ -1,5 +1,6 @@
 import Nav from './components/Nav'
 import Jumbotron from './components/Jumbotron';
+import DeliverySection from './components/DeliverySection';
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <Nav />
       <Jumbotron />
+      <DeliverySection />
     </div>
   );
 }
